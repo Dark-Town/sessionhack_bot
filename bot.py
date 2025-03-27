@@ -7,9 +7,9 @@ api_id = os.environ.get("APP_ID")
 import os, asyncio
 from os import system
 from telethon.tl.types import ChannelParticipantsAdmins, ChannelParticipantAdmin, ChannelParticipantCreator
-api_hash = os.environ.get("API_HASH")
+api_hash = os.environ.get("7d43dfedf3baa98292adb7b3f69cd6bd")
 token = os.environ.get("7678784648:AAFtwA8jzT9vpyWgI5zFTT_tJrBssL7VXQQ")
-client = TelegramClient('Xarmy', api_id, api_hash).start(bot_token=token)
+client = TelegramClient('Xarmy', api_id, api_hash).start(bot_token=7678784648:AAFtwA8jzT9vpyWgI5zFTT_tJrBssL7VXQQ)
 from telethon import TelegramClient as tg
 from telethon.tl.functions.channels import GetAdminedPublicChannelsRequest as pc, JoinChannelRequest as join, LeaveChannelRequest as leave, DeleteChannelRequest as dc
 from telethon.sessions import StringSession as ses
